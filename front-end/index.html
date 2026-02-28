@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <nav class="menu-tabs">
+        <button id="tab-login" class="tab active">Entrar</button>
+        <button id="tab-register" class="tab">Cadastro</button>
+      </nav>
+
+      <section id="loginView" class="view">
+        <h1>Entrar</h1>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <p><a href="#">Esqueceu a senha?</a></p>
+      </section>
+
+      <section id="registerView" class="view hidden">
+        <h1>Cadastro</h1>
+        <form id="registerForm">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="regPassword">Senha</label>
+            <input type="password" id="regPassword" name="password" required />
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirmar senha</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              required
+            />
+          </div>
+          <button type="submit">Cadastrar</button>
+        </form>
+        <p class="small">Já tem conta? <a href="#" id="toLogin">Entrar</a></p>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
