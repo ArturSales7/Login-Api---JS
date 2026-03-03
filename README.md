@@ -8,25 +8,16 @@
 
 ## 📋 Sobre o Projeto
 
-API completa de autenticação de usuários, desenvolvida com foco em segurança e boas práticas. O projeto conta com uma interface front-end amigável e um back-end robusto para gerenciar cadastro e login de usuários.
+Fiz essa API de login mais pra aprender na prática como funciona autenticação de verdade. Não usei banco de dados, só salvei os dados num arquivo .json mesmo pra simular um banco. Futuramente penso em fazer uma versão com banco real, mas por enquanto tá servindo bem pro estudo.
 
-### ✨ Funcionalidades
+Ah, e usei o GitHub Copilot pra me ajudar no desenvolvimento - aqueles autocompletes inteligentes e sugestões de código agilizaram bastante o processo.
 
-- ✅ Cadastro de novos usuários
-- ✅ Login com verificação de credenciais
-- ✅ Proteção de senhas com criptografia
-- ✅ Interface responsiva e intuitiva
-- ✅ Validação de dados em tempo real
+🛠️ Tecnologias Utilizadas
 
-## 🛠️ Tecnologias Utilizadas
-
-### Front-end
-- **HTML5** - Estruturação das páginas
-- **CSS3** - Estilização e design responsivo
-- **JavaScript** - Manipulação do DOM e requisições à API
-
-### Back-end
-- **Node.js** - Ambiente de execução JavaScript
-- **Express** - Framework para construção da API
-- **Cors** - Middleware para habilitação de CORS
-- **Bcrypt** - Biblioteca para criptografia de senhas
+HTML5	Linguagem de marcação	Estruturar os elementos da página (formulários, inputs, botões)
+CSS3	Linguagem de estilo	Deixar a interface responsiva e visualmente agradável
+JavaScript	Linguagem de programação front-end	Fazer as requisições para API e manipular o DOM dinamicamente
+Node.js	Ambiente de execução JavaScript	Rodar JavaScript no servidor (back-end)
+Express	Framework para Node.js	Criar as rotas da API de forma simples e organizada (GET, POST)
+Cors	Pacote/middleware	Permitir que o front-end (em uma porta diferente) consiga se comunicar com o back-end
+Bcrypt	Pacote de criptografia	Hashear as senhas antes de salvar e comparar senhas no login (segurança)
