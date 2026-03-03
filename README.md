@@ -12,12 +12,21 @@ Fiz essa API de login mais pra aprender na prática como funciona autenticação
 
 Ah, e usei o GitHub Copilot pra me ajudar no desenvolvimento - aqueles autocompletes inteligentes e sugestões de código agilizaram bastante o processo.
 
-🛠️ Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
-HTML5	Linguagem de marcação	Estruturar os elementos da página (formulários, inputs, botões)
-CSS3	Linguagem de estilo	Deixar a interface responsiva e visualmente agradável
-JavaScript	Linguagem de programação front-end	Fazer as requisições para API e manipular o DOM dinamicamente
-Node.js	Ambiente de execução JavaScript	Rodar JavaScript no servidor (back-end)
-Express	Framework para Node.js	Criar as rotas da API de forma simples e organizada (GET, POST)
-Cors	Pacote/middleware	Permitir que o front-end (em uma porta diferente) consiga se comunicar com o back-end
-Bcrypt	Pacote de criptografia	Hashear as senhas antes de salvar e comparar senhas no login (segurança)
+### 🔧 Back-end
+
+| Tecnologia | Descrição |
+|------------|------------|
+| Node.js | Ambiente de execução JavaScript no back-end |
+| Express | Framework para criação e gerenciamento de rotas da API |
+| Bcrypt | Biblioteca para hashear senhas e garantir segurança dos dados |
+| Cors | Middleware para permitir comunicação entre front-end e back-end |
+
+### 🎨 Front-end
+
+| Tecnologia | Descrição |
+|------------|------------|
+| JavaScript (Vanilla) | Responsável pelas requisições à API e manipulação do DOM |
+| HTML5 | Estruturação da interface |
+| CSS3 | Estilização da interface |
